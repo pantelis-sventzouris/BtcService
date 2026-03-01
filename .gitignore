@@ -1,0 +1,72 @@
+############################
+# Build results
+############################
+bin/
+obj/
+out/
+publish/
+
+############################
+# Rider / VSCode / Visual Studio
+############################
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Entity Framework
+############################
+Migrations/*Snapshot.cs
+
+############################
+# SQLite local database (if using SQLite)
+############################
+*.db
+*.db-shm
+*.db-wal
+
+############################
+# Dotnet generated files
+############################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+############################
+# Test results
+############################
+TestResults/
+*.coverage
+*.coveragexml
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+
+############################
+# Secrets
+############################
+appsettings.Development.json
+appsettings.*.local.json
+
+############################
+# Publish profiles
+############################
+*.pubxml
+*.pubxml.user
